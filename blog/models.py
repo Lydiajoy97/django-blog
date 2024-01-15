@@ -25,5 +25,5 @@ class Comment(models.Model):
     related_name="comments")
     body = models.TextField()
     approved = models.BooleanField(default=False)
-    created_on = models.DateTimeField(auto_add=True)
+    created_on = models.DateTimeField(auto_now_add=True)
 
