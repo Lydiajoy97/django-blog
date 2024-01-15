@@ -24,6 +24,6 @@ class Comment(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE,
     related_name="comments")
     body = models.TextField()
-    approved = models.BooleanFeild(defult=False)
+    approved = models.BooleanField(defult=False)
     created_on = models.DateTimeField(auto_add=True)
 
