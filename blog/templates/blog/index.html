@@ -3,7 +3,7 @@
 {% block content %}
 
 {% for event in event_list %}
-<a href="#">
+<a href="{% url 'post_detail' post.slug %}" class="post-link">
     <h2>{{ event.event_name }}</h2>
 </a>
 {% endfor %}
