@@ -30,11 +30,12 @@ SECRET_KEY = 'django-insecure-=yhlq403ogtdbi6e1mskrt3h$u8(&j2=q!-rqa$bp9&xznlfyu
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-lydiajoy97-djangoblog-nmd06wavbat.ws-eu107.gitpod.io',
-'herokuapp.com']
-
+ALLOWED_HOSTS = [
+    '8000-lydiajoy97-djangoblog-nmd06wavbat.ws-eu107.gitpod.io',
+    'https://git.heroku.com/django-blog6.git', 
+    'postgres://lkpnconx:EEV8iAEnM38aaWdod5o5YzFzsN_qn2jW@heffalump.db.elephantsql.com/lkpnconx']
 
 
 # Application definition
